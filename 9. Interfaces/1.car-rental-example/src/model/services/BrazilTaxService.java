@@ -4,7 +4,7 @@ package model.services;
 // 20% <= 100
 // 15% > 100
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 
     public double tax(double amount) {
         if (amount <= 100.0) {
